@@ -1,0 +1,134 @@
+.top1{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg,rgb(111, 240, 252),rgb(141, 228, 141));
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    height: 3mm;
+    align-items: center;
+}
+.top1 .symbol{
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    gap: 10px;
+}
+.top1 .symbol img{
+    width: 30px;
+
+}
+.top1 .contact{
+    margin-top: 25px;
+    margin-right: 50px;
+    display: flex;
+    gap: 20px;
+}
+.top1 .contact img{
+    width: 25px;
+    gap: 5px;
+}
+.top2 .company{
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(40, 40, 102);
+    display: flex;
+    align-items: center;
+}
+.top2 .company img{
+    width: 50px;
+    margin-left: 50px;
+}
+.top2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    background: radial-gradient(circle,rgb(247, 253, 119),rgb(255, 164, 231));
+    height: 50px;
+    align-items: center;
+}
+.top2 .home{
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.topmenu {
+  color: black;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration:none;
+  transition: font-size 0.3s ease;
+}
+.topmenu:hover{
+  color: rgb(216, 2, 155);
+  text-decoration: underline;
+  transform: scale(1.5); 
+}
+.box3 img{
+    width: 40cm;
+    height: 15cm;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: linear-gradient(40deg,red,rgb(37, 136, 37));
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(236, 139, 139); /* for readability */
+    animation: moveLeft 15s linear infinite;
+}
+@keyframes moveLeft {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+.box4{
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(circle, red, yellow, green);
+    height: 100px;
+    align-items: center;
+}
+.box4 #read{
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 4px;
+}
+.box4 #read img{
+    width: 45px;
+}
+.box5{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgb(217, 217, 217);
+}
+.about .btn{
+    height: 50px;
+    width: 130px;
+    margin-left: 500px;
+    margin-top: 60px;
+    font-size: 20px;
+    border-radius: 25px;
+    background: linear-gradient(45deg, red, blue);
+    cursor: pointer;
+}
+.about{
+    margin-left: 75px;
+}
+.box5 .about p{
+    font-size: 20px;
+
+}
+.box5 img{
+    width: 450px;
+    margin-right: 75px;
+}
